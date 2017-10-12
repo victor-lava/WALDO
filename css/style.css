@@ -1,0 +1,33 @@
+#menu {
+	position: absolute;
+    top: 0;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+#menu .logo img {
+	max-width: 150px;
+}
+
+#menu li {
+	padding-left: 1.5em;
+}
+
+#menu a {
+	color: rgba(255,255,255,0.5);
+}
+
+
+section.cover {
+	height: 100vh;
+	width: 100%;
+	background: linear-gradient(to right, rgba(23,29,57,1) 0%,rgba(86,102,154,0.95) 100%),
+				url('../img/light_toast.png') repeat,
+				url('../img/header-do-people.png') no-repeat, 
+				url('../img/header-building.png') no-repeat; 
+	background-size: 100%, auto, 90%, 100%;
+	background-position: 0, 0, bottom right, top right;
+	background-blend-mode: multiply;
+					  
+}
